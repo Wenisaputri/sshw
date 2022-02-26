@@ -266,7 +266,7 @@ socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
 [dropbear]
-accept = 445
+accept = 990
 connect = 127.0.0.1:109
 
 [openssh]
@@ -274,7 +274,7 @@ accept = 777
 connect = 127.0.0.1:443
 
 [openvpn]
-accept = 990
+accept = 445
 connect = 127.0.0.1:1194
 
 END
